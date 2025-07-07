@@ -7,12 +7,12 @@
     <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
     </head>
     <body style="margin : 0px; overflow: hidden;">
-        <a-scene arjs embedded>
-          <a-marker aria-pressed="hiro">
+        <a-scene embedded arjs>
+        <a-marker preset="hiro">
             <a-entity
               position="0 0 0"
-              scale="0.05 0.05 0.05"
-              glb-model="https://github.com/Chananticha78/Ticha-test01/blob/main/cat.glb"
+              scale="0.05 0.05 0.05"your-serve
+              gltf-model="https://github.com/AR-js-org/AR.js/blob/master/aframe/examples/image-tracking/nft/trex/scene.gltf"
             ></a-entity>
         </a-marker>
         <a-entity camera></a-entity>
