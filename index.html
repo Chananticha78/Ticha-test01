@@ -7,27 +7,26 @@
   </head>
   <body style="margin: 0; overflow: hidden;">
     <a-scene embedded arjs>
-      <!-- Marker Type Hiro -->
       <a-marker preset="hiro">
-        <!-- โมเดล 3 มิติ: กระต่าย -->
+        <!-- โมเดล: หมุนกลับขึ้นบน -->
         <a-entity
           gltf-model="https://raw.githack.com/Chananticha78/Ticha-test01/main/cute_rabbit/scene.gltf"
-          scale="3 3 3"
-          position="0 0 0"
-          rotation="0 0 0"
+          scale="0.5 0.5 0.5"
+          position="0 0.5 0"
+          rotation="-90 0 0"
         ></a-entity>
 
-        <!-- ข้อความใต้โมเดล -->
+        <!-- ข้อความ: อยู่ใต้โมเดล -->
         <a-text
           value="กระต่ายน้อย"
           align="center"
-          position="0 0 0"
-          scale="2 2 2"
+          position="0 0.1 0"
+          rotation="-90 0 0"
+          scale="1 1 1"
           color="#FF69B4"
         ></a-text>
       </a-marker>
 
-      <!-- กล้อง -->
       <a-entity camera></a-entity>
     </a-scene>
   </body>
