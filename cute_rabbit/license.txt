@@ -1,0 +1,11 @@
+Model Information:
+* title:	Cute Rabbit
+* source:	https://sketchfab.com/3d-models/cute-rabbit-a92db0809f3f447f876d643ac38bf48b
+* author:	Hafiene (https://sketchfab.com/ahmedhafiene98)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Cute Rabbit" (https://sketchfab.com/3d-models/cute-rabbit-a92db0809f3f447f876d643ac38bf48b) by Hafiene (https://sketchfab.com/ahmedhafiene98) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
