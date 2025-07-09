@@ -8,24 +8,16 @@
       body { margin: 0; overflow: hidden; }
     </style>
   </head>
-  <body>
-    <a-scene embedded arjs="trackingMethod: best; sourceType: webcam;" vr-mode-ui="enabled: false">
-      <a-nft
-        type="nft"
-        url="https://raw.githack.com/Chananticha78/Ticha-test01/tree/main/image-track/istockphoto"
-        smooth="true"
-        smoothCount="10"
-        smoothTolerance="0.01"
-        smoothThreshold="5">
-        
-        <a-entity
-          gltf-model="https://raw.githack.com/Chananticha78/Ticha-test01/main/lowpoly_fantasy_rabbit/scene.gltf"
-          scale="5 5 5"
-          rotation="-90 0 0"
-          position="0 0 0">
-        </a-entity>
-      </a-nft>
-
+  <body >
+    <a-scene embedded arjs>
+      \<a-marker preset="hiro">
+       <a-entity
+            gltf-model="https://raw.githack.com/Chananticha78/Ticha-test01/main/lowpoly_fantasy_rabbit/scene.gltf"
+            scale="5 5 5"
+            rotation="-90 0 0"
+            position="0 0 0">
+          </a-entity>
+      </a-marker>
       <a-entity camera></a-entity>
     </a-scene>
   </body>
